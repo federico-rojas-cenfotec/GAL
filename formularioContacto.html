@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>su propiedad soñada en GP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/src/images/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init("user_SGJ5sqkUu8CbcWUWaFWBI");
+        })();
+    </script>
+    <script src="https://kit.fontawesome.com/de67982c75.js" crossorigin="anonymous"></script>
+    
+    <script src="js/components/contactoComponent/formularioContacto.js"></script>
+    <link rel="stylesheet" href="js/components/contactoComponent/formularioContacto.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-light barraNav">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5 logo" href="#">
+                    <img src="./src/images/logoGalPropiedades.png" alt="Logo Gherardo Propiedades"  class="d-inline-block align-text-top logoIcono">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+                    <ul class="w-100 nav justify-content-center justify-content-lg-end">
+                        <li class="nav-item">
+                            <span class="nav-link active fs-4" aria-current="page" href="#">Contáctenos</span>
+                        </li>
+                        <li class="nav-item dWhatsapp">
+                            <a href="https://api.whatsapp.com/send?phone=50684803180&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20propiedades%20."
+                                target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                        <li class="nav-item dTelFlotante"><span itemscope="" style="list-style: none" itemtype="http://schema.org/LocalBusiness"><span itemprop="telephone"><a
+                                    href="tel:+50684803180"><i class="fas fas fa-phone"></i></a></span><span itemprop="name"
+                                style="visibility: hidden"></span></span></li>
+                        <li class="nav-item">
+                            <a class="nav-link dFacebook" href="https://www.facebook.com/GherardoPropiedades" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <a href="index.html">Regresar (DEBO QUITAR ESTO)</a> -->
+    <main class="container-xxl contenedorPrincipal">
+        <section class="row d-flex justify-content-center">
+            <h1 class="col-12 formComponent_header">Formulario de contacto</h1>
+            <form id="contact-form" method="post">
+                <input type="hidden" id="iNombre" name="contact_number">
+                <div class="row d-flex flex-column align-items-center flex-md-row justify-content-md-center">
+                    <label for="iNombre" class="d-flex justify-content-center justify-content-md-start col-5 col-md-2 me-md-5 fs-2">Nombre:</label>
+                    <input type="text" id="iNombre" name="from_name" class="col-5 col-md-3 formComponent_input inputAut"
+                        placeholder="Nombre y 2 apellidos">
+                </div>
+                <br>
+                <div class="row d-flex flex-column align-items-center flex-md-row justify-content-md-center mt-5">
+                    <label for="iMensaje" class="d-flex justify-content-center justify-content-md-start col-5 col-md-2  me-md-5 fs-2">Descripción:</label>
+                    <textarea name="message" rows="4" id="iMensaje" class="col-5 col-md-3 formComponent_input inputAut1"
+                        placeholder="Enumere el o los proyectos de su interés"></textarea>
+                </div>
+                <br>
+                <div class="row d-flex flex-column align-items-center flex-md-row justify-content-md-center mt-5">
+                    <label for="iCorreo" class="d-flex justify-content-center justify-content-md-start col-5 col-md-2 me-md-5 fs-2">Email:</label>
+                    <input type="email" id="iCorreo" name="to_name" class="col-5 col-md-3 formComponent_input inputAut2"
+                        placeholder="Formato: aquisuhogar@gmail.com">
+                </div>
+                <br>
+                <div class="row d-flex flex-column align-items-center flex-md-row justify-content-md-center mt-5 mb-5">
+                    <label for="iCelular" class="d-flex justify-content-center justify-content-md-start col-5 col-md-2 me-md-5 fs-2">Celular:</label>
+                    <input type="tel" id="iCelular" name="to_celular" placeholder="Formato: 506-8888-1234"
+                        pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" class="col-5 col-md-3 formComponent_input inputAut3">
+                </div>
+                <br>
+                <div class="row btnEnviar">
+                    <input type="submit" value="Enviar" class="col-3 fs-2 contactoComponentBtnEnviar m-5">
+                </div>
+            </form>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

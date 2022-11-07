@@ -1,0 +1,31 @@
+.userListComponent{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.userListComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+    background-color: var(--main-background-color);
+    display: flex;
+    justify-content: center;
+}
+
+.contieneProy{
+    width: 90%;
+    background-color: var(--azulFondo);
+    height: fit-content;
+}
+
+.piePaginaUserList {
+    background-color: var(--cafe-logo30);
+    height: 100px;
+}
+
+.piePagUserList {
+    font-size: var(--letraCanton);
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+

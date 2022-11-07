@@ -1,0 +1,33 @@
+.postListComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+}
+
+.postListComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--azulFade);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.postListComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-background-color);
+    overflow: scroll;
+}
+
+div.fadeRotulo {
+    transform: rotate(-40deg);
+    margin: 150px 150px;
+}
+
+.logoIconFade {
+    width: 100%;
+    height: auto;
+}

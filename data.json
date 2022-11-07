@@ -1,0 +1,638 @@
+{
+    "data": {
+        "users": [{
+                "id": 1,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto18LoteEscazu/principal.jpg",
+                "direccion": {
+                "provincia": "San José",
+                "canton": "Escazú",
+                "distrito": "Bebedero",
+                "otrasSenas": "",
+                "geo": {
+                    "lat": "-38.2386",
+                    "lng": "57.2232"
+                }
+            },
+                "planta": "n/a",
+                "office": "si",
+                "tipo": "lote"
+            },
+            {
+                "id": 2,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto17PropiedadGuanacaste/principal.jpg",
+                "direccion": {
+                    "provincia": "Guanacaste",
+                    "canton": "Santa Cruz",
+                    "distrito": "Santa Cruz",
+                    "otrasSenas": "de la entrada principal a Santa Cruz 100 metros al este, 200 al norte y 150 al este. Urbanización CAcique Diriá, lote 14-C",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "n/a",
+                "office": "si",
+                "tipo": "lote"
+            },
+            {
+                "id": 3,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto16FincaTurrialba/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Turrialba",
+                    "distrito": "Tuis",
+                    "otrasSenas": "Los Angeles de Tuis, Turrialba",
+                    "geo": {
+                        "lat": "24.6463",
+                        "lng": "-168.8889"
+                    }
+                },
+                "planta": "n/a",
+                "office": "no",
+                "tipo": "finca"
+            },
+            {
+                "id": 4,
+                "dormitorios": "n/a5",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto15FincaRioSeco/principal.jpg",
+                "direccion": {
+                    "provincia": "Puntarenas",
+                    "canton": "Osa",
+                    "distrito": "Santa Rosa de Piedras Blancas",
+                    "otrasSenas": "n/a",
+                    "geo": {
+                        "lat": "-14.3990",
+                        "lng": "-120.7677"
+                    }
+                },
+                "planta": "n/a",
+                "office": "n/a",
+                "tipo": "finca"
+            },
+            {
+                "id": 5,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto14LotesTec2/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Central",
+                    "distrito": "Oriental Cartago",
+                    "otrasSenas": "cercanía del TEC",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "n/a",
+                "office": "n/a",
+                "tipo": "lote"
+            },
+            {
+                "id": 6,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto13LotesTec/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Central",
+                    "distrito": "Oriental Cartago",
+                    "otrasSenas": "cercanía del TEC",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "n/a",
+                "office": "n/a",
+                "tipo": "lote"
+            },
+            {
+                "id": 7,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad": "src/proyecto12LoteSanCarlos/principal.jpg",
+                "direccion": {
+                    "provincia": "Alajuela",
+                    "canton": "San Carlos",
+                    "distrito": "Florencia, Muelle de San Carlos",
+                    "otrasSenas": "Lote contiguo a la Cámara de Ganaderos y frente a carretera nacional",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "n/a",
+                "office": "si",
+                "tipo": "lote"
+            },
+            {
+                "id": 8,
+                "dormitorios": "n/a",
+                "banos": "n/a",
+                "garage": "n/a",
+                "imgPropiedad":  "src/proyecto11LoteCervantes/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Alvarado",
+                    "distrito": "Cervantes",
+                    "otrasSenas": "Ubicada cerca de la escuela de Cervantes",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "n/a",
+                "office": "n/a",
+                "tipo": "lote"
+            },
+            {
+                "id": 9,
+                "dormitorios": "2",
+                "banos": "1",
+                "garage": "no",
+                "imgPropiedad":"src/proyecto10PropiedadSJ/principal.jpg",
+                "direccion": {
+                    "provincia": "San José",
+                    "canton": "San José",
+                    "distrito": "Primero",
+                    "otrasSenas": " ubicada en avenida 8",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "2 plantas",
+                "office": "no",
+                "tipo": "propiedad"
+            },
+            {
+                "id": 10,
+                "dormitorios": "n/d",
+                "banos": "n/d",
+                "garage": "n/d",
+                "imgPropiedad": "src/proyecto9CasaPiedadesSantaAna/principal.jpg",
+                "direccion": {
+                    "provincia": "San José",
+                    "canton": "Santa Ana",
+                    "distrito": "Piedades",
+                    "otrasSenas": "costado norte de la Iglesia Católica",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "n/d",
+                "tipo": "casa"
+            },
+            {
+                "id": 11,
+                "dormitorios": "3",
+                "banos": "3",
+                "garage": "2",
+                "imgPropiedad": "src/proyecto8CasaParrita/principal.jpg",
+                "direccion": {
+                    "provincia": "Puntarenas",
+                    "canton": "Parrita",
+                    "distrito": "Sardinal",
+                    "otrasSenas": "a 5 Km escasos del centro de Parrita",
+                    "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "si",
+                "tipo": "casa"
+            },
+            {
+                "id": 12,
+                "dormitorios": "4",
+                "banos": "1",
+                "garage": "2",
+                "imgPropiedad": "src/proyecto7CasaSanRafael2/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Oreamuno",
+                    "distrito": "San Rafael",
+                    "otrasSenas": "a solo 150 metros al oeste de la Plaza de Deportes de San Rafael",
+                    "geo": {
+                        "lat": "24.8918",
+                        "lng": "21.8984"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "no",
+                "tipo": "casa"
+            },
+            {
+                "id": 13,
+                "dormitorios": "5",
+                "banos": "3.5",
+                "garage": "5",
+                "imgPropiedad": "src/proyecto6CasaSanPedro/principal.jpg",
+                "direccion": {
+                    "provincia": "San José",
+                    "canton": "Montes de Oca",
+                    "distrito": "San Pedro",
+                    "otrasSenas": "500 metros sur del ICE San Pedro, sobre la radial a Zapote, Los Yoses Sur",
+                    "geo": {
+                        "lat": "-71.4197",
+                        "lng": "71.7478"
+                    }
+                },
+                "planta": "2 plantas",
+                "office": "si",
+                "tipo": "casa"
+            },
+            {
+                "id": 14,
+                "dormitorios": "3",
+                "banos": "2",
+                "garage": "1",
+                "imgPropiedad": "src/proyecto5CasaLeonCortes/principal.jpg",
+                "direccion": {
+                    "provincia": "San José",
+                    "canton": "León Cortés",
+                    "distrito": "San Pablo",
+                    "otrasSenas": "n/d",
+                    "geo": {
+                        "lat": "-31.8129",
+                        "lng": "62.5342"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "si",
+                "tipo": "casa"
+            },
+            {
+                "id": 15,
+                "dormitorios": "3",
+                "banos": "3",
+                "garage": "6",
+                "imgPropiedad": "src/proyecto4CasaHeredia/principal.jpg",
+                "direccion": {
+                    "provincia": "Heredia",
+                    "canton": "San Isidro",
+                    "distrito": "San Isidro",
+                    "otrasSenas": "n/d",
+                    "geo": {
+                        "lat": "29.4572",
+                        "lng": "-164.2990"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "no",
+                "tipo": "casa"
+            },
+            {
+                "id": 16,
+                "dormitorios": "3",
+                "banos": "2.5",
+                "garage": "2 ó +",
+                "imgPropiedad": "src/proyecto3CasaDesamparados/principal.jpg",
+                "direccion": {
+                    "provincia": "San José",
+                    "canton": "Desamparados",
+                    "distrito": "San Rafael Abajo",
+                    "otrasSenas": "n/d",
+                    "geo": {
+                        "lat": "-68.6102",
+                        "lng": "-47.0653"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "no",
+                "tipo": "casa"
+            },
+            {
+                "id": 17,
+                "dormitorios": "2",
+                "banos": "2.5",
+                "garage": "2",
+                "imgPropiedad": "src/proyecto2CasaCoyol/principal.png",
+                "direccion": {
+                    "provincia": "Alajuela",
+                    "canton": "Central",
+                    "distrito": "La Garita, El Coyol",
+                    "otrasSenas": "casa ubicada en condominio en El Coyol",
+                    "geo": {
+                        "lat": "-43.9509",
+                        "lng": "-34.4618"
+                    }
+                },
+                "planta": "2 plantas",
+                "office": "no",
+                "tipo": "casa"
+            },
+            {
+                "id": 18,
+                "dormitorios": "4",
+                "banos": "2.5",
+                "garage": "2 ó +",
+                "imgPropiedad": "src/proyecto1CasaSanRafael/principal.jpg",
+                "direccion": {
+                    "provincia": "Cartago",
+                    "canton": "Oreamuno",
+                    "distrito": "San Rafael",
+                    "otrasSenas": "La Chinchilla vieja 800 norte del Restaurante Mi Tierra",
+                    "geo": {
+                        "lat": "-37.3159",
+                        "lng": "81.1496"
+                    }
+                },
+                "planta": "1 planta",
+                "office": "si",
+                "tipo": "casa"
+            }            
+        ],
+        "posts": [
+            {
+                "userId": 18,
+                "id": 18,
+                "tituloProyecto": "Hermosa casa en Cartago",
+                "descripcion": "A solo 5 minutos de MaxiPalí San Rafael y amplia zona de comidas, en ruta a los volcanes Irazú y Turrialba",
+                "descripcion1": "Amplias zonas verdes, pisos de cerámica, calentador solar para agua, biodigestor para desecho de aguas negras, bomba y tanque de agua, ",
+                "areaTerreno": " 505 mt<sup>2</sup>",
+                "areaConstruccion": " 244 mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto1CasaSanRafael/entrada2.jpg",
+                    "imgAdicionales2": "src/proyecto1CasaSanRafael/sala4.jpg",
+                    "imgAdicionales3": "src/proyecto1CasaSanRafael/terraza2.jpg",
+                    "imgAdicionales4": "src/proyecto1CasaSanRafael/cuartoPrincipal.jpg"
+                }
+                
+            },
+            {
+                "userId": 17,
+                "id": 17,
+                "tituloProyecto": "Casa en condominio ubicada en El Coyol de Alajuela",
+                "descripcion": "Casa de diseño moderno.  El condominio cuenta con amenidades como piscina,",
+                "descripcion1": "jardín para niños, guardería privada y accesos conforme a la ley 7600",
+                "areaTerreno": " 150 mt<sup>2</sup>",
+                "areaConstruccion": " n/d",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto2CasaCoyol/9-02A.png",
+                    "imgAdicionales2": "src/proyecto2CasaCoyol/12-02A.png",
+                    "imgAdicionales3": "src/proyecto2CasaCoyol/6-02A.png",
+                    "imgAdicionales4": "src/proyecto2CasaCoyol/4-02A.png"
+                }
+            },
+            {
+                "userId": 16,
+                "id": 16,
+                "tituloProyecto": "Casa en San Rafael Abajo de Desamparados.",
+                "descripcion": "En alrededores de zona comercial, con mall, supermercados, clínica y banco",
+                "descripcion1": "Cuenta con cochera, sala, comedor, cocina, baño, 2 cuartos con opción de más, cuarto de pilas y jardín",
+                "areaTerreno": " 126 mt<sup>2</sup>",
+                "areaConstruccion": " n/d",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto3CasaDesamparados/1.jpg",
+                    "imgAdicionales2": "",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            },            
+            {
+                "userId": 15,
+                "id": 15,
+                "tituloProyecto": "Casa ubicada en San Isidro de Heredia",
+                "descripcion": "Hermosa casa con amplia zona verde, completamente plana",
+                "descripcion1": "cuenta con sala, comedor, antecomedor, cocina, lavandería, terraza, sala TV, 2 vestidores y alto con bodega.  Completamente cerrada con tapias",
+                "areaTerreno": " 1.800 mt<sup>2</sup>",
+                "areaConstruccion": "n/d",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto4CasaHeredia/7A.jpg",
+                    "imgAdicionales2": "src/proyecto4CasaHeredia/10A.jpg",
+                    "imgAdicionales3": "src/proyecto4CasaHeredia/6A.jpg",
+                    "imgAdicionales4": "src/proyecto4CasaHeredia/9A.jpg"
+                }
+            },            
+            {
+                "userId": 14,
+                "id": 14,
+                "tituloProyecto": "Casa en San Pablo de León Cortés",
+                "descripcion": "Cuenta con cocina, sala, comedor, cochera con portón eléctrico, bodega y amplio patio",
+                "descripcion1": "Tanque de agua de 200 litros y sistema de cámaras",
+                "areaTerreno": " 239 mt<sup>2</sup>",
+                "areaConstruccion": " n/d",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto5CasaLeonCortes/10A.jpg",
+                    "imgAdicionales2": "src/proyecto5CasaLeonCortes/13A.jpg",
+                    "imgAdicionales3": "src/proyecto5CasaLeonCortes/7A.jpg",
+                    "imgAdicionales4": "src/proyecto5CasaLeonCortes/12A.jpg"
+                }
+            },            
+            {
+                "userId": 13,
+                "id": 13,
+                "tituloProyecto": "Amplia casa ubicada contiguo a la Cámara de Industrias",
+                "descripcion": "Propiedad con uso de suelo mixto, para habitación o comercial de oficinas",
+                "descripcion1": "Ubicada en conveniente localización cercana a malls, universidades, escuelas, bancos y multitud de comercios",
+                "areaTerreno": " 311 mt<sup>2</sup>",
+                "areaConstruccion": " 380 mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto6CasaSanPedro/11A.png",
+                    "imgAdicionales2": "src/proyecto6CasaSanPedro/14A.png",
+                    "imgAdicionales3": "src/proyecto6CasaSanPedro/1A.png",
+                    "imgAdicionales4": "src/proyecto6CasaSanPedro/16A.png"
+                }
+            },
+            {
+                "userId": 12,
+                "id": 12,
+                "tituloProyecto": "Casa en San Rafael de Oreamuno, alrededores de la Plaza de Deportes",
+                "descripcion": "Esta casa cuenta con amplia sala y comedor, baño de lujo, cuarto de pilas, cocina amueblada,",
+                "descripcion1": "rancho techado, bodega independiente y tanque para agua",
+                "areaTerreno": " 258 mt<sup>2</sup>",
+                "areaConstruccion": " 200 mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto7CasaSanRafael2/16A.jpg",
+                    "imgAdicionales2": "src/proyecto7CasaSanRafael2/1A.jpg",
+                    "imgAdicionales3": "src/proyecto7CasaSanRafael2/11A.jpg",
+                    "imgAdicionales4": "src/proyecto7CasaSanRafael2/15A.jpg"
+                }
+            },
+            {
+                "userId": 11,
+                "id": 11,
+                "tituloProyecto": "Hermosa y amplia finca en Parrita, Puntarenas",
+                "descripcion": "La casa cuenta con sala grande, cocina, oficina, terraza, portón eléctrico, 2 cocheras, corrredor grande y zonas verdes con árboles frutales",
+                "descripcion1": "",
+                "areaTerreno": " 4.000 mt<sup>2</sup>",
+                "areaConstruccion": " 390 mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto8CasaParrita/9A.png",
+                    "imgAdicionales2": "src/proyecto8CasaParrita/16A.png",
+                    "imgAdicionales3": "src/proyecto8CasaParrita/23A.png",
+                    "imgAdicionales4": "src/proyecto8CasaParrita/21A.png"
+                }
+            },
+            {
+                "userId": 10,
+                "id": 10,
+                "tituloProyecto": "Hermosa casa en Piedades de Santa Ana",
+                "descripcion": "",
+                "descripcion1": "",
+                "areaTerreno": " 450 mt<sup>2</sup>",
+                "areaConstruccion": " n/d",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto9CasaPiedadesSantaAna/4A.png",
+                    "imgAdicionales2": "",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 9,
+                "id": 9,
+                "tituloProyecto": "Conveniente propiedad ubicada en avenida 8, San José",
+                "descripcion": "Propiedad de 2 plantas.  En la superior tiene 2 apartamentos, cada uno  con 2 dormitorios, baño, comedor y cocina y sala juntos",
+                "descripcion1": "En la planta área para 2 locales comerciales.  Se estima el alquiler de los apartamentos en 280.000/mes y los locales en $1.000/mes.",
+                "areaTerreno": " n/d mt<sup>2</sup>",
+                "areaConstruccion": " n/d mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto10PropiedadSJ/6-02A.png",
+                    "imgAdicionales2": "src/proyecto10PropiedadSJ/12-02A.png",
+                    "imgAdicionales3": "src/proyecto10PropiedadSJ/8-02A.png",
+                    "imgAdicionales4": "src/proyecto10PropiedadSJ/16-02A.png"
+                }
+            },
+            {
+                "userId": 8,
+                "id": 8,
+                "tituloProyecto": "Amplia propiedad de 3.800 mt<sup>2</sup>",
+                "descripcion": "Localizada cerca de la escuela, capilla y carretera principal a Cartago y Turrialba. Cuenta con uso de suelo para vivienda y tiene agua potable",
+                "descripcion1": "Terreno apto para agricultura, cuenta con espacio suficiente para cría de animales como cabras, cerdos o ganado.",
+                "areaTerreno": " 3.800 mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto11LoteCervantes/13A.png",
+                    "imgAdicionales2": "src/proyecto11LoteCervantes/3A.png",
+                    "imgAdicionales3": "src/proyecto11LoteCervantes/1A.png",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 7,
+                "id": 7,
+                "tituloProyecto": "Terreno de 49.000 mt<sup>2</sup> con una vista maravillosa al Parque Nacional Volcán Arenal",
+                "descripcion": "Se halla a solo 10 minutos de la nueva zona franca y el futuro aeropuerto",
+                "descripcion1": "Terreno apto para uso agropecuario, turístico, industrial o residencial",
+                "areaTerreno": " 49.000 mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto12LoteSanCarlos/1A.png",
+                    "imgAdicionales2": "src/proyecto12LoteSanCarlos/2A.png",
+                    "imgAdicionales3": "src/proyecto12LoteSanCarlos/4A.png",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 6,
+                "id": 6,
+                "tituloProyecto": "Lote en las cercanías del Instituto Tecnológico en Cartago",
+                "descripcion": "",
+                "descripcion1": "",
+                "areaTerreno": " 151 mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto13LotesTec/2-02A.png",
+                    "imgAdicionales2": "",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 5,
+                "id": 5,
+                "tituloProyecto": "Lote en las cercanías del Instituto Tecnológico en Cartago",
+                "descripcion": "",
+                "descripcion1": "",
+                "areaTerreno": " 154 mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto14LotesTec2/3-02A.png",
+                    "imgAdicionales2": "",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 4,
+                "id": 4,
+                "tituloProyecto": "Finca de Santa Rosa de Piedras Blancas de Osa",
+                "descripcion": "Espectacular propiedad que cuenta con agua propia todo el año",
+                "descripcion1": "acceso en camino de lastre en perfectas condiciones, asombrosas vistas y avistamiento de aves.",
+                "areaTerreno": " 2.990mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto15FincaRioSeco/9A.png",
+                    "imgAdicionales2": "src/proyecto15FincaRioSeco/8A.png",
+                    "imgAdicionales3": "src/proyecto15FincaRioSeco/16A.png",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 3,
+                "id": 3,
+                "tituloProyecto": "Propiedad en Los Ángeles de Tuis, Turrialba",
+                "descripcion": "Propiedad amplia con frente a carretera principal, libre de gravámenes, servicio de agua potable, electricidad y teléfono,",
+                "descripcion1": " tiene casa de campo tipo Chalet de 2 plantas y acceso para vehículo. Árboles frutales.",
+                "areaTerreno": " 22.989 mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto16FincaTurrialba/2A.png",
+                    "imgAdicionales2": "src/proyecto16FincaTurrialba/15A.png",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 2,
+                "id": 2,
+                "tituloProyecto": "Propiedad en Santa Cruz, Guanacaste",
+                "descripcion": "La propiedad cuenta con casa prefabricada de 49 mt<sup>2</sup> y un apartamento de 19 mt<sup>2</sup>. Con garage de 20 mt<sup>2</sup>",
+                "descripcion1": "",
+                "areaTerreno": " 630 mt<sup>2</sup>",
+                "areaConstruccion": " 80 mt<sup>2</sup>",
+                "imagenes":{
+                    "imgAdicionales1": "src/proyecto17PropiedadGuanacaste/8A.png",
+                    "imgAdicionales2": "src/proyecto17PropiedadGuanacaste/4A.png",
+                    "imgAdicionales3": "src/proyecto17PropiedadGuanacaste/11A.png",
+                    "imgAdicionales4": ""
+                }
+            },
+            {
+                "userId": 1,
+                "id": 1,
+                "tituloProyecto": "Lote en Bebedero, San Antonio de Escazú",
+                "descripcion": "Lote con uso de suelo mixto, apto para construir",
+                "descripcion1": "",
+                "areaTerreno": " mt<sup>2</sup>",
+                "areaConstruccion": " n/a",
+                "imagenes":{
+                    "imgAdicionales1": "",
+                    "imgAdicionales2": "",
+                    "imgAdicionales3": "",
+                    "imgAdicionales4": ""
+                }
+            }
+        ]
+    }
+}

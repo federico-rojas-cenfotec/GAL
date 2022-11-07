@@ -1,0 +1,122 @@
+.postComponent {
+    background-color: #f4f8fb;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: calc(100%-5px);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.paraBtnVerProyectos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+.btnVerProyectos{
+    background-color: var(--azul-oficial);
+    cursor: grab;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px 0 0px 10px;
+}
+
+.btnVerProyectos span {
+    margin-left: 2rem;
+    color: white;
+}
+
+.btnVerProyectos:hover {
+    width: 600px;
+    -webkit-transition: width .5s ease-in-out;
+    transition: width 1s ease-in-out;
+    cursor: grab;
+    background-color: var(--cafe-logo30);
+}
+
+.btnVerProyectos span:hover {
+    color: var(--azul-oficial);
+    font-weight: bold;
+}
+
+.postComponent_title {
+    font-size: 24px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.postComponent_descrip {
+    font-size: 18px;
+    margin: 10px 5px 0px 112px;
+}
+
+.postComponent_area {
+    font-size: 18px;
+    margin: 10px 5px 0px 112px;
+}
+
+.postComponent_comments_container {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.postComponent_addBtn {
+    width: 100%;
+    height: 40px;
+    background-color: var(--addNewCommentBtn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.postComponent_contactenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px 5px 50px 5px;
+}
+
+.postComponent_btnContactenos span a {
+    background-color: var(--azul-oficial);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.postComponent_btnContactenos span a:hover {
+    background-color: var(--cafe-logo30);
+    color: var(--azul-oficial);
+    font-weight: bold;
+    border: 3px solid var(--azul-oficial);
+    cursor: grab;
+    box-shadow: 8px 7px 5px 0px var(--cafe-logo);
+}
+
+.contieneFotos{
+    width: 90%;
+    background-color: var(--azulFondo);
+    height: fit-content;
+}
+
+.piePaginaPost {
+    background-color: var(--cafe-logo30);
+    height: 150px;
+}

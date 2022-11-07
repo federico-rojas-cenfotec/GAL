@@ -1,0 +1,159 @@
+.contenedorPrincipal {
+    background-color: var(--azulFondo);
+    margin-top: 8.6rem;
+    margin-bottom: 5rem;
+}
+
+.btnEnviar {
+    display: flex;
+    justify-content: center;
+}
+
+.formComponent_header {
+    font-size: calc(var(--letra) * 5);
+    font-weight: bold;
+    margin: 50px 0 75px 0;
+    text-align: center;
+    color: black !important;
+}
+
+.contactoComponentBtnEnviar {
+    color: #FFF;
+    background-color: var(--azul-oficial);
+    width: 400px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.contactoComponentBtnEnviar:hover {
+    background-color: var(--cafe-logo30);
+    border: 1px solid var(--cafe-logo30);
+    cursor: grab;
+    color: var(--azul-oficial);
+    font-weight: bold;
+    box-shadow: 8px 7px 5px 0px var(--cafe-logo);
+}
+
+::placeholder {
+    color: var(--azul-oficial);
+    font-size: var(--letra-icono);
+}
+
+.formComponent_input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--cafe-logo);
+}
+
+.inputAut[type=text]:focus {
+    width: 500px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.inputAut1:focus {
+    width: 500px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.inputAut2[type=email]:focus {
+    width: 500px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.inputAut3[type=tel]:focus {
+    width: 500px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+/* barra de navegación */
+.barraNav {
+    border-bottom: 6px solid var(--cafe-logo30);
+    height: var(--nav-bar-height);
+    background-color: var(--main-background-color);
+}
+
+.logo{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.logoIcono{
+    width: 100%;
+    height: auto;
+}
+
+.dWhatsapp,
+.dTelFlotante,
+.dFacebook {
+    width: 50px;
+    height: 50px;
+}
+
+.dWhatsapp,
+.dTelFlotante,
+.dFacebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dWhatsapp:hover,
+.dTelFlotante:hover,
+.dFacebook:hover {
+    border-radius: 50px;
+}
+
+.dWhatsapp i {
+    font-size: 2.5rem;
+    color: #25d366;
+}
+
+.dWhatsapp:hover {
+    background-color: #25d366;
+}
+
+.dWhatsapp i:hover {
+    color: #FFF;
+}
+
+.dTelFlotante {
+    margin-left: 1rem;
+}
+
+.dTelFlotante i {
+    font-size: 1.8rem;
+    color: red;
+}
+
+.dTelFlotante:hover {
+    background-color: red;
+}
+
+.dTelFlotante i:hover {
+    color: #FFF;
+}
+
+.dFacebook {
+    margin: 0 1rem 0 1rem;
+}
+
+.dFacebook i {
+    font-size: 2.5rem;
+    color: #196DD8;
+}
+
+.dFacebook:hover {
+    background-color: #196DD8;
+}
+
+.dFacebook i:hover {
+    color: #FFF;
+}
+

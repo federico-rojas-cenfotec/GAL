@@ -1,0 +1,96 @@
+.proyComponent {
+    background-color: var(--main-background-color);
+    width: calc(100%-10px);
+    margin: 10px 5px 20px 5px;
+    border-radius: 5px;
+}
+
+.cortina {
+    width:28%;
+    height: 40%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+
+.proyComponent:hover .cortina {
+    display: flex;
+    align-items: center;
+}
+
+.btnMasInformacion {
+    background-color: var(--azul-oficial);
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 15rem;
+}
+
+.userComponent_col1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.userComponent_col2 {
+    height: 100%;
+}
+
+.userComponent_imgProp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.userComponent_dormitorios {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 0px;
+}
+
+.userComponent_banos {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 0px;
+}
+
+.userComponent_garage {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 0px;
+}
+
+.userComponent_office {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 0px;
+}
+
+.userComponent_provincia {
+    font-size: var(--letraCanton);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 30px;
+}
+
+.numeroProyecto {
+    padding-top: 0.5rem;
+    font-size: var(--titulo-proy);
+    height: 60px;
+}
+
+.letraIconos{
+    font-size: var(--letra-icono);
+}
+
+.letraCanton{
+    font-size: var(--letraCanton);
+}

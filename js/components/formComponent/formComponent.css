@@ -1,0 +1,62 @@
+.formComponent {
+    position: fixed;
+    top: var(--nav-bar-height);
+    width: 100vw;
+    height: calc(100vh - var(--nav-bar-height));
+}
+
+.formComponent_fade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: var(--azulFade);
+    opacity: 0;
+    pointer-events: all;
+}
+
+.formComponent_dataContainer {
+    position: fixed;
+    width: 100%;
+    background-color:var(--main-background-color);    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dFotosProyectos {
+    width: 100%;
+    height: fit-content;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.dFotosProyectos1 {
+    background-color: var(--azulFondo);
+    width: 90%;
+    height: fit-content;
+}
+
+
+.dFotoProy {
+    border-radius: 10px;
+    background-color: var(--main-background-color);
+    padding: 10px 0px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.dFotoProy b {
+    font-size: calc(var(--letra) * 2.5);
+}
+
+.imgFoto {
+    object-fit: cover;
+    margin-left: 1rem;
+}
+
+.piePagFormComponent {
+    color: black;
+    width: 100%;
+    height: 100px;
+    background-color: var(--cafe-logo30);
+}
